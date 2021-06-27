@@ -95,6 +95,7 @@ public class PlayeController : MonoBehaviour
             if (count <0 )
             {
                 LoseAudio.Play();
+                print("Loss audio played");
             }
             Destroy(CollisionAnimation, 1.0f);
         }
