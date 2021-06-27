@@ -19,6 +19,7 @@ public class TankHealth : MonoBehaviour
     void Start()
     {
         hpTotal=hp;
+        hpSlider.value = 1.0f;
     }
 
     // Update is called once per frame
