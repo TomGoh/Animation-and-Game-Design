@@ -1,924 +1,135 @@
 Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.0f1c1 (1e553bf703d9) revision 1987899'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1081; Version 2009; 64bit' Language: 'zh' Physical Memory: 16063 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+D:\IDE\Unity\2020.3.0f1c1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/maojingyi/Desktop/Unity/TanksProject
+C:/Users/Tom-G/Documents/GitHub/Animation-and-Game-Design/TanksProject
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49467
-Successfully changed project path to: /Users/maojingyi/Desktop/Unity/TanksProject
-/Users/maojingyi/Desktop/Unity/TanksProject
+50011
+Successfully changed project path to: C:/Users/Tom-G/Documents/GitHub/Animation-and-Game-Design/TanksProject
+C:/Users/Tom-G/Documents/GitHub/Animation-and-Game-Design/TanksProject
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 97.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 95.00 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1c1 (1e553bf703d9)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/maojingyi/Desktop/Unity/TanksProject/Assets
+[Subsystems] Discovering subsystems at path D:/IDE/Unity/2020.3.0f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Tom-G/Documents/GitHub/Animation-and-Game-Design/TanksProject/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-22 09:28:42.025 Unity[18211:1200716] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-06-22 09:28:42.025 Unity[18211:1200716] Metal devices available: 1
-2021-06-22 09:28:42.025 Unity[18211:1200716] 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
-2021-06-22 09:28:42.026 Unity[18211:1200716] Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
-Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 655
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6677
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56211
+Mono path[0] = 'D:/IDE/Unity/2020.3.0f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/IDE/Unity/2020.3.0f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/IDE/Unity/2020.3.0f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003327 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 96.11 ms, found 2 plugins.
+Register platform support module: D:/IDE/Unity/2020.3.0f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002444 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.143 seconds
+- Completed reload, in  0.990 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011275 seconds.
+Registered in 0.008448 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.541 seconds
+- Completed reload, in  1.309 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.3 MB.
-System memory in use after: 196.4 MB.
+System memory in use before: 116.7 MB.
+System memory in use after: 116.9 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3490.
-Total: 3.274643 ms (FindLiveObjects: 0.432879 ms CreateObjectMapping: 0.217075 ms MarkObjects: 2.521004 ms  DeleteObjects: 0.102325 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/TankHealth.cs
-  artifactKey: Guid(d2b043ad8f18c404c891664cfaf293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TankHealth.cs using Guid(d2b043ad8f18c404c891664cfaf293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3624e363ed4e1cd803b9cf06ea410d6') in 0.386929 seconds
-  Import took 0.395332 seconds .
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.03 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 135.1 MB.
-System memory in use after: 135.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3490.
-Total: 4.167150 ms (FindLiveObjects: 0.620609 ms CreateObjectMapping: 0.404456 ms MarkObjects: 3.077347 ms  DeleteObjects: 0.062907 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 3491.
+Total: 3.325800 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.152500 ms MarkObjects: 2.612700 ms  DeleteObjects: 0.138500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 21.424571 seconds.
   path: Assets/Prefabs/Tank.prefab
   artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f4ce1a88af1fa6225e81f73b6cfac7') in 1.474487 seconds
-  Import took 1.484611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.575143 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4428d35ddb0d91de30cfd062f224ad6c') in 0.036122 seconds
-  Import took 0.046454 seconds .
+Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b928dc847244d95bb200d11972c557cb') in 0.158204 seconds
+  Import took 0.164938 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005845 seconds.
+Registered in 0.007204 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  1.240 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.3 MB.
-System memory in use after: 202.5 MB.
+System memory in use before: 113.3 MB.
+System memory in use after: 113.5 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3501.
-Total: 5.167052 ms (FindLiveObjects: 0.558593 ms CreateObjectMapping: 0.441297 ms MarkObjects: 4.038509 ms  DeleteObjects: 0.122987 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.729804 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bddd46c7001164641ac5580aa32e67') in 0.103210 seconds
-  Import took 0.113065 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.578128 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c249351d35a2733024128da08d2499') in 0.072209 seconds
-  Import took 0.084838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007968 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c249351d35a2733024128da08d2499') in 0.026140 seconds
-  Import took 0.034701 seconds .
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3502.
+Total: 3.184100 ms (FindLiveObjects: 0.399600 ms CreateObjectMapping: 0.125500 ms MarkObjects: 2.551300 ms  DeleteObjects: 0.106200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005105 seconds.
+Registered in 0.008300 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Tom-G\Documents\GitHub\Animation-and-Game-Design\TanksProject\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.382 seconds
+- Completed reload, in  1.253 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 202.6 MB.
-System memory in use after: 202.8 MB.
+System memory in use before: 113.3 MB.
+System memory in use after: 113.6 MB.
 
 Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3505.
-Total: 2.678321 ms (FindLiveObjects: 0.347421 ms CreateObjectMapping: 0.171144 ms MarkObjects: 2.098471 ms  DeleteObjects: 0.060036 ms)
+Total: 3.460200 ms (FindLiveObjects: 0.525100 ms CreateObjectMapping: 0.230400 ms MarkObjects: 2.606500 ms  DeleteObjects: 0.096000 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 99.659464 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477eed4df8d030c9477121736d193146') in 0.095993 seconds
-  Import took 0.103180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009617 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477eed4df8d030c9477121736d193146') in 0.021463 seconds
-  Import took 0.028739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.988280 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d392c311d156993af723832d460cb3') in 0.037907 seconds
-  Import took 0.047629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021645 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d392c311d156993af723832d460cb3') in 0.023717 seconds
-  Import took 0.032296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 205.503368 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b536544262dc0fb986e3f0ee35ae7a77') in 0.018626 seconds
-  Import took 0.027075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009041 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b536544262dc0fb986e3f0ee35ae7a77') in 0.019227 seconds
-  Import took 0.026527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.827962 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af0f8b7d51cabc4fe97f77fe2103564') in 0.012815 seconds
-  Import took 0.023555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003749 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af0f8b7d51cabc4fe97f77fe2103564') in 0.020054 seconds
-  Import took 0.029492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.212807 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7f1a13d8bcbe959694de260e296583') in 0.013019 seconds
-  Import took 0.022964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005389 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7f1a13d8bcbe959694de260e296583') in 0.019510 seconds
-  Import took 0.028662 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005620 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.388 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 203.4 MB.
-System memory in use after: 203.6 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3509.
-Total: 2.727417 ms (FindLiveObjects: 0.428084 ms CreateObjectMapping: 0.233013 ms MarkObjects: 2.002434 ms  DeleteObjects: 0.060878 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.061872 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b4dbd5ebf608e23593c842dab0ddea') in 0.079623 seconds
-  Import took 0.086075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 222.401498 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be517ff6c22e88a3393a8b4f9f1db812') in 0.015776 seconds
-  Import took 0.022364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.022762 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be517ff6c22e88a3393a8b4f9f1db812') in 0.019827 seconds
-  Import took 0.030069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 91.419099 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c704353308b77f1dd73b6b15323ac695') in 0.018059 seconds
-  Import took 0.025822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001134 seconds.
-  path: Assets/Prefabs/Shell.prefab
-  artifactKey: Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shell.prefab using Guid(c4b96d34a0f4d234cb90cc2bc530ad20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c704353308b77f1dd73b6b15323ac695') in 0.019416 seconds
-  Import took 0.029359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 63.367396 seconds.
-  path: Assets/Models/Building01.fbx
-  artifactKey: Guid(f698f69d64c51f8438d853e5c274e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Building01.fbx using Guid(f698f69d64c51f8438d853e5c274e5fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014f87933edc245dc63a3f4a88ba5401') in 0.497517 seconds
-  Import took 0.504813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Models/OilStorage.fbx
-  artifactKey: Guid(e307cb54b57a59342868ad47d1ed0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/OilStorage.fbx using Guid(e307cb54b57a59342868ad47d1ed0c30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adec6fa6fcd328c8038a208f4e40bfd') in 0.015745 seconds
-  Import took 0.021807 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Models/Tank.fbx
-  artifactKey: Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tank.fbx using Guid(002e2a607f5b64c48be0b3b0d8b8bfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1032d60b441492f110f76fb17a6742') in 0.054639 seconds
-  Import took 0.060759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Models/Rocks03.fbx
-  artifactKey: Guid(fd0d7091fe3f1d24e81321bc2e4209df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Rocks03.fbx using Guid(fd0d7091fe3f1d24e81321bc2e4209df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384037112135e5b214671810cc83e5e8') in 0.024029 seconds
-  Import took 0.030011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Models/Dunes02.fbx
-  artifactKey: Guid(38b4fea28f58d3641980a70a5188e750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Dunes02.fbx using Guid(38b4fea28f58d3641980a70a5188e750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4447bed5e6f7801214d6094082eeafca') in 0.017125 seconds
-  Import took 0.023731 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Models/Cliff.fbx
-  artifactKey: Guid(12783825d19a606449c1d81b822fb4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cliff.fbx using Guid(12783825d19a606449c1d81b822fb4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4fd598c2c4c6522417ebd2bf8ad355e') in 0.016961 seconds
-  Import took 0.023687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Models/Dunes01.fbx
-  artifactKey: Guid(1b0f8caf6ec3ed644bf9751040d84dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Dunes01.fbx using Guid(1b0f8caf6ec3ed644bf9751040d84dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd48d66736e73d9043bcb901f1fd791') in 0.019448 seconds
-  Import took 0.025075 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Models/Crater01.fbx
-  artifactKey: Guid(aef18f364fed1a64ba495d15dcee610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Crater01.fbx using Guid(aef18f364fed1a64ba495d15dcee610d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cadd3b5765362eacf89cb5350eb4922') in 0.014950 seconds
-  Import took 0.020651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Models/Shell.fbx
-  artifactKey: Guid(9ed1e8a25f964bd4298944675e425a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Shell.fbx using Guid(9ed1e8a25f964bd4298944675e425a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '638dddc3a0f9a901200a1f977afaac1c') in 0.015735 seconds
-  Import took 0.021512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Models/Building02.fbx
-  artifactKey: Guid(7fa610bf2b9bccd48a9b3a6d79f90a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Building02.fbx using Guid(7fa610bf2b9bccd48a9b3a6d79f90a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda6dbac188da112c6676e6c774b5842') in 0.014036 seconds
-  Import took 0.019436 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Models/Column02.FBX
-  artifactKey: Guid(74d835b756ff5654f8060c76cbcb4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Column02.FBX using Guid(74d835b756ff5654f8060c76cbcb4e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af52c59db8220424d077dc1d2f9fdcd') in 0.408804 seconds
-  Import took 0.415640 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Models/Terrain.fbx
-  artifactKey: Guid(126dbcddb53386c4f969fdf0c555e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Terrain.fbx using Guid(126dbcddb53386c4f969fdf0c555e822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5ab7c6a071cc86733f3e1c04649806') in 0.021832 seconds
-  Import took 0.030376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Models/Rocks02.fbx
-  artifactKey: Guid(8f90bdc8aeb4bad4db0cb091100a44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Rocks02.fbx using Guid(8f90bdc8aeb4bad4db0cb091100a44f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9984c6f44d921b92d4e2d1316ba1944') in 0.023254 seconds
-  Import took 0.033301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Models/PumpJack.fbx
-  artifactKey: Guid(d7962f90116a5c94d9a7a2b2e4fbc1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/PumpJack.fbx using Guid(d7962f90116a5c94d9a7a2b2e4fbc1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721bdd03c077496722764dea88799c79') in 0.076056 seconds
-  Import took 0.084689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Models/Radar.fbx
-  artifactKey: Guid(afd58f28713632e419efd8f302698ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Radar.fbx using Guid(afd58f28713632e419efd8f302698ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45636be59d8b6fa8814bfe5f6f393b41') in 0.018221 seconds
-  Import took 0.025689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/Models/Rocks01.fbx
-  artifactKey: Guid(2964d4e5af87e5245bdd71b73e9b92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Rocks01.fbx using Guid(2964d4e5af87e5245bdd71b73e9b92f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f2c5f2842cbf43cb06159f6440fc598') in 0.022138 seconds
-  Import took 0.028124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Models/Ruins01.fbx
-  artifactKey: Guid(8c99ccdf18f6a404f84ffd08488298d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Ruins01.fbx using Guid(8c99ccdf18f6a404f84ffd08488298d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04c0187e11f16c048a191b7e54e7188') in 0.013478 seconds
-  Import took 0.019577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Models/BustedTank.fbx
-  artifactKey: Guid(8c6d26fe262194242becdec17209d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/BustedTank.fbx using Guid(8c6d26fe262194242becdec17209d306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537b93664e76a18f6e0e1d4e69097aee') in 0.028961 seconds
-  Import took 0.035005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Models/Cow.fbx
-  artifactKey: Guid(961487dad48770a4d867fcbcca1e5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cow.fbx using Guid(961487dad48770a4d867fcbcca1e5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4516ebe129d0a9241d2eaf2cfcdb6dd9') in 0.030451 seconds
-  Import took 0.035785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Models/Column01.FBX
-  artifactKey: Guid(8d8760d4504814540ba00eaa1d1f43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Column01.FBX using Guid(8d8760d4504814540ba00eaa1d1f43ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d362c5cf583b952ab94bf49573dc152') in 0.016968 seconds
-  Import took 0.021681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Models/Tree.fbx
-  artifactKey: Guid(50912a5d3c9322a46afa5ca162962a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Tree.fbx using Guid(50912a5d3c9322a46afa5ca162962a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1b21cd748921de35d8ebbc55bbb03') in 0.041162 seconds
-  Import took 0.048430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Models/PalmTree.fbx
-  artifactKey: Guid(a1194fc0a76098e499948ecf77b6acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/PalmTree.fbx using Guid(a1194fc0a76098e499948ecf77b6acdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b2ee53746f9f678c4c84668a0d3f89') in 0.021720 seconds
-  Import took 0.028661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Models/Concrete.fbx
-  artifactKey: Guid(a678ab9f67b4ce84093be35214bdb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Concrete.fbx using Guid(a678ab9f67b4ce84093be35214bdb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947a849a7f7373b3341163cd6d54d28') in 0.034891 seconds
-  Import took 0.041308 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Models/Cactus.fbx
-  artifactKey: Guid(00b5a8045a3c3914bb0dfdf2d62f05c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Cactus.fbx using Guid(00b5a8045a3c3914bb0dfdf2d62f05c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e528180173198e4a9aca3fd68e227f0') in 0.032901 seconds
-  Import took 0.040315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Models/Helipad.fbx
-  artifactKey: Guid(614b6b69c0bbcd945bb2f83eb02a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Helipad.fbx using Guid(614b6b69c0bbcd945bb2f83eb02a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e7fbe48968a851bba6e993034b588') in 0.017919 seconds
-  Import took 0.022946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Models/Concrete.fbx
-  artifactKey: Guid(a678ab9f67b4ce84093be35214bdb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Concrete.fbx using Guid(a678ab9f67b4ce84093be35214bdb92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9947a849a7f7373b3341163cd6d54d28') in 0.017793 seconds
-  Import took 0.023992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Models/Refinery.fbx
-  artifactKey: Guid(6e4d8dfe03882c54380948659f725233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Refinery.fbx using Guid(6e4d8dfe03882c54380948659f725233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4145131a7821b992c136f10518a655') in 0.031264 seconds
-  Import took 0.036774 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Models/Helipad.fbx
-  artifactKey: Guid(614b6b69c0bbcd945bb2f83eb02a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Helipad.fbx using Guid(614b6b69c0bbcd945bb2f83eb02a3436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1e7fbe48968a851bba6e993034b588') in 0.014016 seconds
-  Import took 0.019507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.030789 seconds.
-  path: Assets/Models/Refinery.fbx
-  artifactKey: Guid(6e4d8dfe03882c54380948659f725233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Refinery.fbx using Guid(6e4d8dfe03882c54380948659f725233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4145131a7821b992c136f10518a655') in 0.033338 seconds
-  Import took 0.038366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.733318 seconds.
-  path: Assets/Materials/Red.mat
-  artifactKey: Guid(463052f3f7389124f9e7b34b0b931d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Red.mat using Guid(463052f3f7389124f9e7b34b0b931d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5afd2d0e3c6e09be793e4ffa67b316c4') in 0.846782 seconds
-  Import took 0.857199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.659314 seconds.
-  path: Assets/Editor/MoveSceneViewCamera.cs
-  artifactKey: Guid(1ac54707d3a75084eb41ad5c4c3a43b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MoveSceneViewCamera.cs using Guid(1ac54707d3a75084eb41ad5c4c3a43b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58ddddb3d2c7bc1fad500f7285bef81') in 0.007367 seconds
-  Import took 0.014964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.393426 seconds.
-  path: Assets/Fonts/Bowlby_One/BowlbyOne-Regular.ttf
-  artifactKey: Guid(3d7fe0a26ba72d949874021dc3d6995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Bowlby_One/BowlbyOne-Regular.ttf using Guid(3d7fe0a26ba72d949874021dc3d6995e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f568a54343cec951b1be6ef9d7fb051') in 2.162770 seconds
-  Import took 2.168707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.662830 seconds.
-  path: Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
-  artifactKey: Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs using Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566527a492bae56fb57205507e1570b') in 0.001746 seconds
-  Import took 0.008155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.092879 seconds.
-  path: Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs
-  artifactKey: Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs using Guid(97e9b95cf609d96409b6c40519432957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c566527a492bae56fb57205507e1570b') in 0.001501 seconds
-  Import took 0.008190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.350882 seconds.
-  path: Assets/Editor/ImageEffects
-  artifactKey: Guid(225198e07aaae3547a6d1f6e7177555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects using Guid(225198e07aaae3547a6d1f6e7177555f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bf4cc720b233d1d18a819e0e029fe9') in 0.001814 seconds
-  Import took 0.010356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.323961 seconds.
-  path: Assets/Editor/ImageEffects/EdgeDetectionEditor.cs
-  artifactKey: Guid(b5f1618d14cd80f4da910f00b04af37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/EdgeDetectionEditor.cs using Guid(b5f1618d14cd80f4da910f00b04af37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161da3211de1b1b96aa927e53188cf4d') in 0.002324 seconds
-  Import took 0.009166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.189562 seconds.
-  path: Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs
-  artifactKey: Guid(abd63abcc46fbcb4588164b671b52d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs using Guid(abd63abcc46fbcb4588164b671b52d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4587d6bc2c4e2c9b1117abd8004a7639') in 0.001752 seconds
-  Import took 0.009714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.958141 seconds.
-  path: Assets/Editor/ImageEffects/SunShaftsEditor.cs
-  artifactKey: Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/SunShaftsEditor.cs using Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94e35b80ae57c3d5b017ec40135ea22') in 0.001726 seconds
-  Import took 0.008906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.223148 seconds.
-  path: Assets/Editor/ImageEffects/TonemappingEditor.cs
-  artifactKey: Guid(0f7cab214f141f642b87a5bdbd14653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/TonemappingEditor.cs using Guid(0f7cab214f141f642b87a5bdbd14653e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57750fd5ea546ac48725f7426203d246') in 0.001839 seconds
-  Import took 0.009868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.858660 seconds.
-  path: Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs
-  artifactKey: Guid(08126bf2baa528c4cb9c60340a24e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs using Guid(08126bf2baa528c4cb9c60340a24e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99aa7c6b0f73da4c5228a152bf7cb928') in 0.002146 seconds
-  Import took 0.009178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.640361 seconds.
-  path: Assets/Editor/ImageEffects/AntialiasingEditor.cs
-  artifactKey: Guid(ba15fa37442517749a3c4640a4ad4054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/ImageEffects/AntialiasingEditor.cs using Guid(ba15fa37442517749a3c4640a4ad4054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cafea3982cadd0eef6193f1767bc3a') in 0.001718 seconds
-  Import took 0.008449 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.444498 seconds.
-  path: Assets/FollowTarget.cs
-  artifactKey: Guid(74bb35babe05a5d48af3407f368ac1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FollowTarget.cs using Guid(74bb35babe05a5d48af3407f368ac1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8197441ebb8c1b74758e97dc9a5625') in 0.002343 seconds
-  Import took 0.009406 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005364 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.469 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.5 MB.
-System memory in use after: 236.7 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3554.
-Total: 2.973584 ms (FindLiveObjects: 0.480566 ms CreateObjectMapping: 0.212614 ms MarkObjects: 2.219176 ms  DeleteObjects: 0.060053 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.129866 seconds.
-  path: Assets/FollowTarget.cs
-  artifactKey: Guid(74bb35babe05a5d48af3407f368ac1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FollowTarget.cs using Guid(74bb35babe05a5d48af3407f368ac1f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a281ac868de8cd7c93741a245830a8') in 0.009960 seconds
-  Import took 0.018680 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.838893 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861d597edaeece2d719f5f2ff2ae058c') in 0.104762 seconds
-  Import took 0.112219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.337334 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17743453c336067e7ce257a7ed0ae396') in 0.029639 seconds
-  Import took 0.036741 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005453 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.406 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.8 MB.
-System memory in use after: 237.0 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3558.
-Total: 3.046982 ms (FindLiveObjects: 0.398327 ms CreateObjectMapping: 0.163115 ms MarkObjects: 2.424721 ms  DeleteObjects: 0.059378 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 359.985838 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f39dd565b0535995e858bce3f5d09c5') in 0.114024 seconds
-  Import took 0.124662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.080406 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bbb09253986f4f49662f800da0c13d') in 0.037525 seconds
-  Import took 0.046424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.308476 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181a19455978a96c1ede4ea989bb2525') in 0.032141 seconds
-  Import took 0.042416 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004621 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.321 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 237.1 MB.
-System memory in use after: 237.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3562.
-Total: 3.755857 ms (FindLiveObjects: 0.678839 ms CreateObjectMapping: 0.366041 ms MarkObjects: 2.629847 ms  DeleteObjects: 0.078627 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 142.283156 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85deaef5ff8e8ef5a7f7c28cda82a9e9') in 0.112010 seconds
-  Import took 0.118911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 406.785262 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPage@32x.png
-  artifactKey: Guid(14a8ae82d6c2846769a653bf9f4c0753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPage@32x.png using Guid(14a8ae82d6c2846769a653bf9f4c0753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd334f63a3eecf48b06961422bf451069') in 0.949895 seconds
-  Import took 0.956504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png
-  artifactKey: Guid(b9d75ee465bf243539414eab3b94ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AboutPluginsPage@32x.png using Guid(b9d75ee465bf243539414eab3b94ff02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356e0d7e26615eb44b385fca75160c07') in 0.009968 seconds
-  Import took 0.016564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png
-  artifactKey: Guid(71ff4424a45a14d01aeb98f6e4673ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/EditorAssetResources/Icons/Windows/AboutWindow/AcknowledgementPage@32x.png using Guid(71ff4424a45a14d01aeb98f6e4673ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a0355299bed3e050ae2fb6c609837') in 0.008412 seconds
-  Import took 0.018728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
-  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0caa59b645fbcaaa277696c7dbc87d') in 0.022481 seconds
-  Import took 0.030262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
-  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab01af0e1026930bfe933f81aebcf2e') in 0.007117 seconds
-  Import took 0.013833 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000439 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
-  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b84c5a63db19c180301650674fa334b') in 0.012149 seconds
-  Import took 0.024996 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
-  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9bbd5d4e8d2de3d0fc0f514c44cd46') in 0.007292 seconds
-  Import took 0.013007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1485.551138 seconds.
-  path: Assets/Scripts/TankHealth.cs
-  artifactKey: Guid(d2b043ad8f18c404c891664cfaf293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TankHealth.cs using Guid(d2b043ad8f18c404c891664cfaf293bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd24431149c007af9aa20488f425a45') in 0.005820 seconds
-  Import took 0.014440 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 685.125669 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81100d31b2ff01173a529b1d39c29c4b') in 0.076648 seconds
-  Import took 0.084377 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.781399 seconds.
-  path: Assets/Prefabs/Tank.prefab
-  artifactKey: Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Tank.prefab using Guid(76dfdb025f4d88b428855f3531dd8db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbe7847a99df9eada1db24b8a4967d1') in 0.033333 seconds
-  Import took 0.044525 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005479 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.642 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.7 MB.
-System memory in use after: 244.9 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3569.
-Total: 3.035012 ms (FindLiveObjects: 0.564531 ms CreateObjectMapping: 0.253375 ms MarkObjects: 2.125040 ms  DeleteObjects: 0.090264 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.012555 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/maojingyi/Desktop/Unity/TanksProject/Library/PackageCache/com.unity.visualscripting@1.6.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2990 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 244.9 MB.
-System memory in use after: 245.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3572.
-Total: 2.496371 ms (FindLiveObjects: 0.387312 ms CreateObjectMapping: 0.144233 ms MarkObjects: 1.901100 ms  DeleteObjects: 0.060656 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

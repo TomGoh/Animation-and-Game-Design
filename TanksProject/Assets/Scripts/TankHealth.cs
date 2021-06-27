@@ -8,7 +8,8 @@ public class TankHealth : MonoBehaviour
     public int hp = 100;
     public GameObject tankExplosion;
     public AudioClip tankExplosionAudio;
-    
+    public GameObject winText1;
+    public GameObject winText2;
 
     public Slider hpSlider;
 
@@ -20,6 +21,9 @@ public class TankHealth : MonoBehaviour
     {
         hpTotal=hp;
         hpSlider.value = 1.0f;
+        winText1.SetActive(false);
+        winText2.SetActive(false);
+
     }
 
     // Update is called once per frame
@@ -42,6 +46,14 @@ public class TankHealth : MonoBehaviour
             AudioSource.PlayClipAtPoint(tankExplosionAudio,transform.position);
             GameObject.Instantiate(tankExplosion, transform.position + Vector3.up, transform.rotation);
             Destroy(this.gameObject);
+            if (GameObject.Find("Tank1") == this)
+            {
+                winText1.SetActive(true);
+            }
+            else
+            {
+                winText2.SetActive(true);
+            }
         }
     }
 }
